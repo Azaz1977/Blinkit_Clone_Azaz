@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#search_item>input{
+    width: 35vw;
+    border: none;
+    padding: 10px;
+    background-color: transparent;
+}
+
+#search_item{
+    border-radius: 15px !important;
+}
+
+#hero_sec{
+display: flex;
+justify-content: center;
+}
+
+#categories_Listing{
+display: flex;
+flex-wrap: wrap;
+width: 85vw;
+margin: auto;
+justify-content: space-between;
+}
+
+.div-scroll{
+width: 85vw;
+margin: auto;
+overflow: hidden;
+}
+
+.listing{
+text-wrap: nowrap;
+overflow-x: scroll;
+
+}
